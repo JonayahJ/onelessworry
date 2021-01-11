@@ -1,0 +1,30 @@
+{
+  "name": "onelessworry",
+  "version": "1.0.0",
+  "description": "One Less Worry Period website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayahJ/onelessworry.git"
+  },
+  "keywords": [
+    "Doula",
+    "Maternity",
+    "Black",
+    "Women",
+    "BIPOC",
+    "Pregnancy",
+    "Labor",
+    "Birth",
+    "Midwife"
+  ],
+  "author": "Jonayah M. Jakson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonayahJ/onelessworry/issues"
+  },
+  "homepage": "https://github.com/JonayahJ/onelessworry#readme"
+}
