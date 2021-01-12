@@ -12,7 +12,7 @@
   "license": "ICS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssninjaStudio"
+    "url": "https://github.com/JonayahJ/onelessworry"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
