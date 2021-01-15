@@ -61,8 +61,35 @@
                 </div>
             </div>
         </nav>
-        <!-- Header -->
-        <div class="hero type-1 parallax is-cover is-relative is-fullheight" 
+        <!-- Mobile Header -->
+        <div class="hero type-1 parallax is-cover is-relative is-fullheight is-hidden-desktop is-hidden-tablet"
+            style="background-position-x: 50%;"
+            data-background="https://images.pexels.com/photos/3013668/pexels-photo-3013668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            data-color="#837FCB" data-color-opacity=".3">
+        
+            <!-- Hero shape -->
+            <img class="hero-shape-commerce" src="assets/img/graphics/legacy/wave-2.svg" alt="wave 2">
+            
+            <!-- Hero caption -->
+            <div id="main-hero" class="hero-body">
+        
+                <div class="container">
+                    <div class="columns is-vcentered is-hero-caption">
+                        <div class="column is-5">
+                            <h1 class="title is-1 is-light">
+                                Black Maternity
+                            </h1>
+                            <h2 class="subtitle is-4 is-light">
+                                Shining a light on the challenges facing the <br> Black birthing experience.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- D/T Header -->
+        <div class="hero type-1 parallax is-cover is-relative is-fullheight is-hidden-mobile" 
             data-background="https://images.pexels.com/photos/3013668/pexels-photo-3013668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             data-color="#837FCB" data-color-opacity=".3">
         
@@ -114,8 +141,13 @@
                         </p>
                         <br>
                         <br>
-                        <!-- YT VIDEO -->
-                        <div class="video-container">
+                        <!-- MOBILE YT VIDEO -->
+                        <div class="video-container is-hidden-tablet is-hidden-desktop">
+                            <iframe width="75%" height="75%" src="https://www.youtube.com/embed/-P1lMQrUhDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen &rel=0></iframe>
+                        </div>
+                        
+                        <!-- D/T YT VIDEO -->
+                        <div class="video-container is-hidden-mobile">
                             <iframe width="640px" height="383px" src="https://www.youtube.com/embed/-P1lMQrUhDg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen &rel=0></iframe>
                         </div>
                     </div>
