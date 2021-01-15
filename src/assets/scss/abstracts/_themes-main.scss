@@ -22,6 +22,7 @@ $secondary: #C18C5D; // Persian Orange
 $accent: #495867; // Black Coral
 
 $secondary-muted: #f9f4f0;
+$accent-muted: #eff1f4;
 
 $desert-sand: #ecc8afff;
 $desert-sand-muted: #f6e4d8;
@@ -101,6 +102,18 @@ $hero-gradient: linear-gradient(to top, $secondary, $accent);
     
     &.is-theme-secondary-muted {
         background-color: $secondary-muted;
+
+        .title {
+            color: $grey-3;
+        }
+
+        .subtitle {
+            color: $grey-3;
+        }
+    }
+
+    &.is-theme-accent-muted {
+        background-color: $accent-muted;
 
         .title {
             color: $grey-3;
