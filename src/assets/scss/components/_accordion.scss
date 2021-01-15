@@ -22,7 +22,7 @@ TABLE OF CONTENTS
         position: relative;
         width: 100%;
         height: auto;
-        background-color: $white;
+        background-color: $desert-sand;
         border: 1px solid $fade-grey;
 
         a {
@@ -56,7 +56,7 @@ TABLE OF CONTENTS
             position: relative;
             width: 100%;
             height: auto;
-            background-color: $white;
+            background-color: $desert-sand;
             display: none;
 
             p {
@@ -306,7 +306,7 @@ TABLE OF CONTENTS
             color: $blue-grey;
             font-size: 14px;
             font-weight: 600;
-            background-color: #fff;
+            background-color: #ecc8afff;
             border: 1px solid #e0e0e0;
             transition: background-color 0.2s, color 0.2s;
             padding: 16px 27px;
@@ -339,7 +339,7 @@ TABLE OF CONTENTS
             margin: 0;
             padding: 15px 0;
             text-transform: none;
-            font-size: 11px;
+            font-size: 18px;
             font-weight: 500;
             background-color: transparent;
             color: $blue-grey;
