@@ -114,3 +114,6 @@ $hero-gradient: linear-gradient(to top, $secondary, $accent);
 .section-underlay {
     margin-top: -2vh; // closing the gap between the top polygon and the following section
 }
+link {
+    color: $secondary;
+}
