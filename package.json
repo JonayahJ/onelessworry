@@ -74,6 +74,7 @@
     "jquery-waypoints": "^2.0.5",
     "jquery.counterup": "^2.1.0",
     "lozad": "^1.16.0",
+    "node-sass": "^5.0.0",
     "paper": "^0.12.11",
     "plyr": "^3.5.6",
     "scrollreveal": "^3.4.0",

@@ -203,7 +203,7 @@ TABLE OF CONTENTS
 .button {
     &.is-link {
         background: transparent !important;
-        color: $blue-grey;
+        color: $secondary;
 
         &.btn-more {
             text-decoration: none !important;
@@ -224,7 +224,7 @@ TABLE OF CONTENTS
         }
 
         &:hover {
-            background: $link-grey !important;
+            background: $desert-sand !important;
 
             i {
                 transform: translate(10px, 0);
