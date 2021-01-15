@@ -20,7 +20,12 @@ TABLE OF CONTENTS
 $primary: #CE796B; // New York Pink
 $secondary: #C18C5D; // Persian Orange
 $accent: #495867; // Black Coral
+
+$secondary-muted: #f9f4f0;
+
 $desert-sand: #ecc8afff;
+$desert-sand-muted: #f6e4d8;
+
 $melon: #e7ad99ff;
 // $new-york-pink: #ce796bff;
 // $persian-orange: #c18c5dff;
@@ -69,4 +74,43 @@ $hero-gradient: linear-gradient(to top, $secondary, $accent);
             color: $white;
         }
     }
+
+    &.is-theme-desert-sand {
+        background-color: $desert-sand;
+
+        .title {
+            color: $accent;
+        }
+
+        .subtitle {
+            color: $accent;
+        }
+    }
+
+    &.is-theme-desert-sand-muted {
+        background-color: $desert-sand-muted;
+
+        .title {
+            color: $grey-3;
+        }
+
+        .subtitle {
+            color: $grey-3;
+        }
+    }
+    
+    &.is-theme-secondary-muted {
+        background-color: $secondary-muted;
+
+        .title {
+            color: $grey-3;
+        }
+
+        .subtitle {
+            color: $grey-3;
+        }
+    }
+}
+.section-underlay {
+    margin-top: -2vh; // closing the gap between the top polygon and the following section
 }
